@@ -115,18 +115,26 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
+    - identifier: patterns
+      name: patterns
+      url: /patterns/
+      weight: 10
     - identifier: categories
       name: categories
       url: /categories/
-      weight: 10
+      weight: 20
     - identifier: tags
       name: tags
       url: /tags/
-      weight: 20
-    - identifier: example
-      name: example.org
-      url: https://example.org
       weight: 30
+    - identifier: blog
+      name: blog
+      url: /blog/
+      weight: 40     
+    - identifier: ODIN
+      name: ODIN
+      url: https://linktr.ee/odininitiative
+      weight: 50
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
