@@ -19,7 +19,7 @@ params:
   title: Collaborative Sparks
   description: "a comprehensive resource for individuals and organizations seeking innovative approaches to collaboration and governance"
   keywords: [Innovation, Collaboration, Governance, Teal, Integral, Theory U, Sociocracy 3.0]
-  author: ODIN Community
+#  author: ODIN Community
   # author: ["Me", "You"] # multiple authors
   # images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
@@ -97,10 +97,10 @@ params:
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
 
-  editPost:
-    URL: "https://github.com/<path_to_repo>/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
+#  editPost:
+#   URL: "https://github.com/<path_to_repo>/content"
+#   Text: "Suggest Changes" # edit text
+#   appendFilePath: true # to append file path to Edit link
 
   # for search
   # https://fusejs.io/api/options.html
@@ -131,10 +131,14 @@ menu:
       name: blog
       url: /blog/
       weight: 40     
+    - identifier: about
+      name: about
+      url: /about/
+      weight: 50     
     - identifier: ODIN
       name: ODIN
       url: https://linktr.ee/odininitiative
-      weight: 50
+      weight: 60
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
