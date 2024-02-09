@@ -6,7 +6,7 @@ ShowBreadCrumbs: false
 ShowWordCount: false
 ShowAuthor: false
 ---
-# Welcome to CollaborativeSparks.org
+# Welcome to Collaborative Sparks
 
 ![](images/CollaborativeSparks-1000.png)
 
